@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 상세 페이지</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="newpage.css" rel="stylesheet">
+</head>
+<body>
+    <h3>도서 상세 페이지</h3>
+    <table id="detail_table">
+        <tr>
+            <th>ISBN</th>
+            <td id="isbn"></td>
+        </tr>
+        <tr>
+            <th>책 제목</th>
+            <td id="book"></td>
+        </tr>
+        <tr>
+            <th>저자</th>
+            <td id="author"></td>
+        </tr>
+        <tr>
+            <th>출판사</th>
+            <td id="publisher"></td>
+        </tr>
+        <tr>
+            <th>출판년도</th>
+            <td id="year"></td>
+        </tr>
+        <tr>
+            <th>대출 정보</th>
+            <td id="borrow_info"></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id="button_table">
+        <tr>
+            <td><input type="button" id="borrow_btn" value="대출하기"></td>
+            <td><input type="button" id="reserve_btn" value="예약하기"></td>
+        </tr>
+    </table>
+    <br><hr><br>
+    <h4>예약 정보</h4>
+    <table id="reserved_table">
+        
+    </table>
+    <script src="newpage.js"></script>
+</body>
+</html>

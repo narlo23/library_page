@@ -1,0 +1,130 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#login_table tr td {
+    width : 130px;
+    border : 1px solid black;
+    border-collapse:collapse;
+    font-size : 25px;
+    text-align : center;
+}
+
+#login_modal {
+    display : none;
+    position : absolute;
+    width : 400px;
+    height : 150px;
+    border-style : outset;
+    border-width : 2px;
+    border-radius : 5px;
+    padding : 30px;
+    background-color : rgb(180, 199, 231);
+}
+
+#login_modal input {
+    background-color : #EDEDED;
+    border : 1px solid black;
+    border-radius : 5px;
+}
+
+.header {
+    float : left;
+    margin-top : 20px;
+    width : 100%;
+    height : 120px;
+    border : 1px solid black;
+    background-color: rgb(218, 227, 243);
+}
+
+#title {
+    text-align :center;
+    font-size : 40px;
+}
+
+.trs {
+    background-color : #EDEDED;
+}
+
+.menubar {
+    float : left;
+    width : 100%;
+}
+
+#menu_table {
+    table-layout : fixed;
+    width : 100%;
+    border : 1px solid black;
+    border-collapse:collapse;
+    font-size : 25px;
+    text-align : center;
+}
+
+#menu_table tr td {
+    border : 1px solid black;
+    border-collapse:collapse;
+}
+
+#first_menu {
+    background-color : rgb(180, 199, 231);
+}
+
+#result_div {
+    margin-top : 100px;
+    float : left;
+    width : 100%;
+    text-align : center;
+    font-size : 30px;
+}
+
+#search_field {
+    font-size : 30px;
+    width : 40%;
+}
+
+#search_btn, #detail_search_btn {
+    font-size : 30px;
+    background-color : rgb(218, 227, 243);
+}
+
+.login_div {
+    border : 1px solid black;
+    padding : 50px;
+    margin-top : 100px;
+    width : 50%;
+}
+
+#modal_table tr th {
+    width : 100px;
+}
+
+#numlabel, #pwlabel {
+    font-size : 20px;
+}
+
+#customer_num, #customer_pw {
+    margin-top : 10px;
+    font-size : 20px;
+    width: 80%;
+}
+
+#detail_book_table tr th {
+    border : 1px solid black;
+    border-collapse : collapse;
+    margin-top : 50px;
+}
+
+#detail_book_table tr td {
+    border : 1px solid black;
+    border-collapse : collapse;
+    width : 300px;
+}
+
+.btns {
+    margin-top : 30px;
+}
+
+#search_book:hover, #mypage:hover, #admin_menu:hover {
+    background-color :rgb(103, 126, 170)
+}

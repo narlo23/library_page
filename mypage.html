@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지</title>
+    <link href="mypage.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>마이페이지</h2>
+    <div class="personal_info">
+        <h3>개인 정보</h3>
+        <table id="personal_table">
+            <tr>
+                <th>이름</th>
+                <td id="customer_name"></td>
+            </tr>
+            <tr>
+                <th>고객번호(아이디)</th>
+                <td id="customer_cno"></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td id="customer_pw"></td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td id="customer_email"></td>
+            </tr>
+            <tr>
+                <th>관리자</th>
+                <td id="customer_admin"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="borrow_info">
+        <h3>대출 정보</h3>
+        <table id="borrow_table">
+
+        </table>
+        <br>
+        <input type="button" id="return_btn" value="반납하기">
+        <input type="button" id="extend_btn" value="연장하기">
+    </div>
+    <br><hr><br>
+    <div class="reserve_info">
+        <h3>예약 정보</h3>
+        <table id="reserve_table">
+
+        </table>
+        <br>
+        <input type="button" id="delete_btn" value="삭제하기">
+    </div>
+    <br><br><br>
+    <script src="mypage.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#detail_table, #reserved_table{
+    border : 1px solid black;
+    border-collapse : collapse;
+    width : 60%;
+    text-align : center;
+}
+
+#detail_table tr td, #reserved_table tr td {
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color: #EDEDED;
+}
+
+#detail_table tr th, #reserved_table tr th {
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color : #DAE3F3;
+}
+
+#borrow_info {
+    color : red;
+    font-weight : bold;
+}

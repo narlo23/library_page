@@ -1,0 +1,38 @@
+#personal_table tr td {
+    border : 1px solid black;
+    border-collapse : collapse;
+    text-align : center;
+    background-color: #EDEDED;
+}
+
+#personal_table tr th {
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color: #DAE3F3;
+}
+
+#personal_table {
+    border : 1px solid black;
+    border-collapse : collapse;
+    width : 50%;
+    text-align : center;
+}
+
+#borrow_table, #reserve_table {
+    border : 1px solid black;
+    border-collapse : collapse;
+    text-align : center;
+    width : 700px;
+}
+
+#borrow_table tr th, #reserve_table tr th{
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color : #DAE3F3;
+}
+
+#borrow_table tr td, #reserve_table tr td{
+    border : 1px solid black;
+    border-collapse : collapse;
+    background-color: #EDEDED;
+}

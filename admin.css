@@ -1,0 +1,24 @@
+body {
+    background-color: #EDEDED;
+}
+
+#join_table, #group_table, #window_table {
+    border : 1px solid black;
+    border-collapse : collapse;
+    width : 700px;
+    text-align : center;
+}
+
+#join_table tr th, #group_table tr th, #window_table tr th{
+    border : 1px solid black;
+    border-collapse: collapse;
+    background-color : #DAE3F3;
+    height : 40px;
+}
+
+
+#join_table tr td, #group_table tr td, #window_table tr td{
+    border : 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}

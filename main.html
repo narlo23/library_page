@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서관 홈페이지</title>
+    <link href="library.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <p id = "loginid" class="menu">__________님 환영합니다.</p>
+    <table id = "login_table" class="menu">
+        <tr>
+            <td id = "home">홈</td>
+            <td id = "login">로그인</td>
+            <td id = "signup">회원가입</td>
+        </tr>
+    </table>
+    <div id="login_modal">
+        <table id="modal_table">
+            <tr>
+                <th>회원번호</th>
+                <td>
+                    <input type="text" id="customer_num" name="customer_num"  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                </td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td>
+                    <input type="password" id="customer_pw" name="customer_pw">
+                </td>
+            </tr>
+            <tr>
+                <td><a href = "signup.html" target = "_blank">회원가입</a></td>
+                <td></td>
+            </tr>
+        </table>
+        <div>
+            <input type="button" id="loginbtn" value="로그인">
+
+            <input type="button" id="exitbtn" value="창닫기">
+        </div> 
+    </div>
+    
+    <div class = "header">
+        <h1 id = "title"> 도서관 홈페이지</h1>
+    </div>
+    <div class = "menubar">
+        <table id = "menu_table">
+            <tr id="first_menu">
+                <td id="search_book">자료 검색</td>
+                <td id="mypage">마이 페이지</td>
+                <td id="admin_menu">관리자 메뉴</td>
+            </tr>
+            <tr class="trs">
+                <td>도서 검색</td>
+                <td>사용자 정보</td>
+                <td>대출 관련 통계</td>
+            </tr>
+            <tr class="trs">
+                <td></td>
+                <td>대출 정보</td>
+                <td></td>
+            </tr>
+            <tr class="trs">
+                <td></td>
+                <td>도서 반납</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

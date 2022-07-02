@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <div id="signup_modal">
+        <table>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="text" id="su_customer_pw"></td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" id="customer_name"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="text" id="email_id" class="form_w200" value="" title="이메일 아이디" placeholder="이메일" maxlength="18" /> @ 
+                    <input type="text" id="email_domain" class="form_w200" value="" title="이메일 도메인" placeholder="이메일 도메인" maxlength="18"/> 
+                    <select id="selectbox" title="이메일 도메인 주소 선택">
+                        <option value="">-선택-</option>
+                        <option value="naver.com">naver.com</option>
+                        <option value="gmail.com">gmail.com</option>
+                        <option value="hanmail.net">hanmail.net</option>
+                        <option value="hotmail.com">hotmail.com</option>
+                        <option value="korea.com">korea.com</option>
+                        <option value="nate.com">nate.com</option>
+                        <option value="yahoo.com">yahoo.com</option>
+                    </select>
+            </tr>
+        </table>
+        <input type="button" id="signup_btn" value="회원가입">
+        <input type="button" id="exitbtn2" value="창닫기">
+    </div>
+</body>
+</html>

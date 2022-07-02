@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 메뉴</title>
+    <link href="admin.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>관리자 메뉴</h2>
+    <hr>
+    <p><b>조인을 이용한 질의</b> : 대출 기록 모두 알아보기</p>
+    <table id="join_table">
+        <tr>
+            <th>Index</th>
+            <th>ISBN</th>
+            <th>책 제목</th>
+            <th>출판사</th>
+            <th>대출일자</th>
+            <th>반납일자</th>
+        </tr>
+    </table>
+    <br><hr><br>
+    <p><b>그룹 함수를 이용한 질의</b> : 출판사별 대출 횟수, 총 대출 횟수 알아보기</p>
+    <table id="group_table">
+        <tr>
+            <th>Index</th>
+            <th>출판사</th>
+            <th>책 제목</th>
+            <th>대출 횟수</th>
+        </tr>
+    </table>
+    <br><hr><br>
+    <p><b>윈도우 함수를 이용한 질의</b> : 도서별 대출 횟수와 순위, 출판사별 대표책과 출판사 별 대출 횟수에서 해당 도서가 차지하는 백분율 알아보기</p>
+    <table id="window_table">
+        <tr>
+            <th>Index</th>
+            <th>책 제목</th>
+            <th>출판사</th>
+            <th>대출 횟수</th>
+            <th>순위</th>
+            <th>출판사별 대표책</th>
+            <th>출판사별 백분율</th>
+        </tr>
+    </table>
+    <br><br><br><br>
+    <script src="admin.js"></script>
+</body>
+</html>

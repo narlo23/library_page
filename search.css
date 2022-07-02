@@ -1,0 +1,51 @@
+#background_div {
+    background-color : #EDEDED;
+    width : 500px;
+}
+
+#addbtn{
+    width : 100%;
+}
+
+#button_div {
+    text-align : right;
+    margin-top : 50px;
+}
+
+#result_table tr, #result_table td {
+    border : 1px solid rgb(0, 0, 0);
+    border-collapse : collapse;
+}
+
+
+.result {
+    width : 100%;
+}
+
+#result_table{
+    margin-top : 50px;
+    border : 1px solid rgb(0, 0, 0);
+    background-color : #EDEDED;
+    width : 80%;
+    border-collapse : collapse;
+    text-align : center;
+}
+
+#result_header>th {
+    background-color : #DAE3F3;
+    border: 1px solid black;
+    border-collapse : collapse;
+}
+
+
+select {
+    background-color : #DAE3F3;
+    border : 1px solid black;
+    border-radius : 5px;
+}
+
+input, button{
+    background-color : #DAE3F3;
+    border : 1px solid black;
+    border-radius : 5px;
+}

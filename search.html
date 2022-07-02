@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 검색 페이지</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="search.css" rel="stylesheet">
+</head>
+<body>
+    <div id="background_div">
+        <h3>상세 검색 페이지</h3>
+        <table id="detail_search_table">
+            <tr>
+                <td>
+                    <select id="bookname_selectbox" class="modalselect">
+                        <option id="bookname" value="bookname" selected>도서명</option>
+                        <option id="unselected1" value="unselected1">선택 안함</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="detail_bookname">
+                </td>
+                <td>
+                    <select id="op_selectbox1" class="modalselect">
+                        <option id="detail_and1" value="and" selected>AND</option>
+                        <option id="detail_or1" value="or">OR</option>
+                        <option id="detail_not1" value="not">NOT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="author_selectbox" class="modalselect">
+                        <option id="author" value="author" selected>저자</option>
+                        <option id="unselected2" value="unselected2">선택 안함</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="detail_author">
+                </td>
+                <td>
+                    <select id="op_selectbox2" class="modalselect">
+                        <option id="detail_and2" value="and" selected>AND</option>
+                        <option id="detail_or2" value="or">OR</option>
+                        <option id="detail_not2" value="not">NOT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="publisher_selectbox" class="modalselect">
+                        <option id="publisher" value="publisher" selected>출판사</option>
+                        <option id="unselected3" value="unselected3">선택 안함</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="detail_publisher">
+                </td>
+                <td>
+                    <select id="op_selectbox3" class="modalselect">
+                        <option id="detail_and3" value="and" selected>AND</option>
+                        <option id="detail_or3" value="or">OR</option>
+                        <option id="detail_not3" value="not">NOT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="year_selectbox" class="modalselect">
+                        <option id="year" value="year" selected>발행년도</option>
+                        <option id="unselected4" value="unselected4">선택 안함</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" id="detail_startyear"> - 
+                </td>
+                <td>
+                    <input type="number" id="detail_endyear">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="button_div">
+                    <button type="button" id="searchbtn" value="검색">검색</button>
+
+                    <button type="button" id="resetbtn" value="초기화">초기화</button>
+        
+                    <button type="button" id="exitbtn" value="창닫기">창닫기</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="result">
+        <table id="result_table">
+            
+        </table>
+    </div>
+    <script src="search.js"></script>
+</body>
+</html>
